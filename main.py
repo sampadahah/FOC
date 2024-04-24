@@ -38,7 +38,7 @@ def main():
                     rent() #Calling the rent funtion from rent_land
 
                 elif user_input == 3:
-                    return_land() #Calling the return function from return_land
+                    pass #Calling the return function from return_land
                     
                 elif user_input == 4:
                     print('Exiting...') # Exit the loop and terminate the program
