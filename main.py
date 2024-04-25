@@ -1,5 +1,5 @@
 from operations import display,clear
-from rent_land import rent
+from rent_land import rent 
 def main():
     #Display the main data
     print("""
@@ -16,17 +16,17 @@ def main():
             try:
                 # Shows  the menu option
                 print(""" 
-                                        ╔════╦═════════════════════════════════════╗
-                                        ║ SN ║    Menu                             ║
-                                        ╠════╬═════════════════════════════════════╣
-                                        ║  1 ║    Display                          ║
-                                        ╠════╬═════════════════════════════════════╣
-                                        ║  2 ║    Rent                             ║
-                                        ╠════╬═════════════════════════════════════╣
-                                        ║  3 ║    Return                           ║
-                                        ╠════╬═════════════════════════════════════╣   
-                                        ║  4 ║    Exit                             ║
-                                        ╚════╩═════════════════════════════════════╝
+                                                                ╔════╦═════════════════════════════════════╗
+                                                                ║ SN ║    Menu                             ║
+                                                                ╠════╬═════════════════════════════════════╣
+                                                                ║  1 ║    Display                          ║
+                                                                ╠════╬═════════════════════════════════════╣
+                                                                ║  2 ║    Rent                             ║
+                                                                ╠════╬═════════════════════════════════════╣
+                                                                ║  3 ║    Return                           ║
+                                                                ╠════╬═════════════════════════════════════╣   
+                                                                ║  4 ║    Exit                             ║
+                                                                ╚════╩═════════════════════════════════════╝
  """)
                 
                 user_input =int(input("Select any option from the above table: "))
@@ -35,7 +35,7 @@ def main():
                     display() #Calling the display function
                 
                 elif user_input == 2:
-                    rent() #Calling the rent funtion from rent_land
+                    rent()#Calling the rent funtion from rent_land
 
                 elif user_input == 3:
                     pass #Calling the return function from return_land

@@ -12,6 +12,13 @@ def display():
         print() #Print a new line after printing each row
         print("-----------------------------------------------------------------------------------------------")
 
+
+def calculate(price,duration):
+    total_amount = price * duration
+    vat_amount = 0.15 * total_amount
+    final_amount = total_amount + vat_amount
+    return total_amount, final_amount
+
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear') # Remove the content from the console screen
 
